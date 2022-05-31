@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="styles/styles.css" rel="stylesheet">
+		<script src="scripts/script.js" defer></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Auto Shop</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/home_back.jpg" class="outPic">
+			<a href="index.html"><img src="images/logo1.jpg" class="pic"></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Sport Cars</a></li>
+					<li><a href="index.html">Family Cars</a></li>
+					<li><a href="index.html">Luxury Cars</a></li>
+					<li><a href="index.html">SUV</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="sportCars">
+			<div class="card">
+				<img src="images/sportCar2.jpg" alt="sportCar" class="cardImage">
+				<h1>Audi S3</h1>
+				<p class="price">$11 000</p>
+				<p>The first generation of Audi A3                   
+					<br>Produced from 1999 to 2003</br>
+				</p>
+			</div>
+			<div class="info">
+				<p>Audi released the A3-derived Audi S3 in 1999, only as a three-door hatchback.
+					<br> The inline-four 20v 1.8 L turbocharged petrol engine came in two versions: 
+					<br>210 PS (154 kW; 207 hp) and 225 PS (165 kW; 222 hp). Early models (1999 - 2001)
+					<br>had 210 PS (154 kW; 207 hp). Later models (2001 - 2003) had variable
+					<br>valve timing and 225 PS (165 kW; 222 hp). The engine had a maximum of
+					<br>280 N⋅m (210 ft⋅lbf) torque. This was the first time a small four-cylinder
+					<br> engine had been used in an Audi S-series car.
+				<p>Although dubbed "quattro", the S3 uses a different four-wheel drive 
+					<br>system.[6] The Haldex Traction coupling adjusts the bias of torque distribution
+					<br> from the front to rear axle as grip requirements change
+					<br> - most of the time it operates as a front-wheel drive.
+				</p>
+				<p>The S3 was sold in Europe, Japan, Mexico, South Africa, Australia, and New Zealand.
+				</p>
+				</p>
+			</div>
+		</div>
+		<hr class="hl">
+		<div class="comments">
+			<p><b>Leave a comment:</b></p>
+			<div class="label">
+				<label for="fnamec">First Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="fnamec" name="firstname" placeholder="First Name..">
+			</div>
+			<div class="label">
+				<label for="lnamec">Last Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="lnamec" name="lastname" placeholder="Last Name..">
+			</div>
+			<div class="label">
+				<label for="comment">Comment:</label>
+			</div>
+			<div class="input">
+				<textarea id="comment" name="comments"></textarea>
+			</div>
+			<input type="submit" id="submitted" value="Comment">
+			<span id="errorComment"></span>
+		</div>
+		<div class="buy">
+			<p><b>Order here</b></p>
+			<div class="label">
+				<label for="fnameb">FIrst Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="fnameb" name="firstname" placeholder="First Name..">
+			</div>
+			<div class="label">
+				<label for="snameb">Second Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="snameb" name="firstname" placeholder="Second Name..">
+			</div>
+			<div class="label">
+				<label for="lnameb">Last Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="lnameb" name="lastname" placeholder="Last Name..">
+			</div>
+			<div class="label">
+				<label for="city">City</label>
+			</div>
+			<div class="input">
+				<input type="text" id="city" name="city" placeholder="City..">
+			</div>
+			<div class="label">
+				<label for="address">Adress</label>
+			</div>
+			<div class="input">
+				<input type="text" id="address" name="address" placeholder="Street..">
+			</div>
+			<input id="ordered" type="submit" value="Order">
+			<span id="successfulOrder"></span>
+			<span id="errorOrder"></span>
+		</div>			
+		<hr class="hl">
+		<div class="dialogbox">
+			<div class="body">
+				<span class="tip tip-left"></span>
+				<div class="message">
+					<div id="new">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hl">	
+		<div class="CardSite">
+			<h2> Name </h2>
+			<p>AUTO SHOP</p>
+			<h2> Adress </h2>
+			<p>Sofia city, Studentski grad</p>
+			<h2> Contacts </h2>
+			<p>Teodor Teodorov +359 824 692 32*</p>
+		</div>
+	</body>
+</html>

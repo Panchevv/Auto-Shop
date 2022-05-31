@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="styles/styles.css" rel="stylesheet">
+		<script src="scripts/script.js" defer></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Auto Shop</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/home_back.jpg" class="outPic">
+			<a href="index.html"><img src="images/logo1.jpg" class="pic"></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Sport Cars</a></li>
+					<li><a href="index.html">Family Cars</a></li>
+					<li><a href="index.html">Luxury Cars</a></li>
+					<li><a href="index.html">SUV</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="sportCars">
+			<div class="card">
+				<img src="images/sportCar1.jpg" alt="sportCar" class="cardImage">
+				<h1>BMW e36 M3</h1>
+				<p class="price">$35 000</p>
+				<p>The third generation of the BMW 3 Series
+					<br>Produced from 1992 to 2000
+				</p>
+			</div>
+			<div class="info">
+				<h1>Body styles</h1>
+				<p>The initial models were of the four-door sedan body style,
+					<br> followed by the coupe, convertible, wagon ("Touring"), hatchback
+					<br> ("Compact") and the rare four-door convertible Baur TC4 in later years.
+				</p>
+				<h1>Compared</h1>
+				<p>The E36 was the first 3 Series to be offered in a hatchback body style.
+					<br>It was also the first 3 Series to be available with a six-speed manual
+					<br> transmission (in the 1996 M3), a five-speed automatic transmission and
+					<br> a four-cylinder diesel engine. The multi-link rear suspension was also
+					<br> a significant upgrade as compared to the previous generations of the 3 Series.
+				</p>
+				<h1>Engine</h1>
+				<p>The high performance E36 M3 is powered by the BMW S50 or BMW S52
+					<br> straight-six engine (depending on country). The E36 M3 was introduced
+					<br> in 1992 and was available in coupé, sedan and convertible body styles.
+				</p>
+			</div>
+		</div>
+		<hr class="hl">
+		<div class="comments">
+			<p><b>Leave a comment:</b></p>
+			<div class="label">
+				<label for="fnamec">First Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="fnamec" name="firstname" placeholder="First Name..">
+			</div>
+			<div class="label">
+				<label for="lnamec">Last Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="lnamec" name="lastname" placeholder="Last Name..">
+			</div>
+			<div class="label">
+				<label for="comment">Comment:</label>
+			</div>
+			<div class="input">
+				<textarea id="comment" name="comments"></textarea>
+			</div>
+			<input type="submit" id="submitted" value="Comment">
+			<span id="errorComment"></span>
+		</div>
+		<div class="buy">
+			<p><b>Order here</b></p>
+			<div class="label">
+				<label for="fnameb">FIrst Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="fnameb" name="firstname" placeholder="First Name..">
+			</div>
+			<div class="label">
+				<label for="snameb">Second Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="snameb" name="firstname" placeholder="Second Name..">
+			</div>
+			<div class="label">
+				<label for="lnameb">Last Name</label>
+			</div>
+			<div class="input">
+				<input type="text" id="lnameb" name="lastname" placeholder="Last Name..">
+			</div>
+			<div class="label">
+				<label for="city">City</label>
+			</div>
+			<div class="input">
+				<input type="text" id="city" name="city" placeholder="City..">
+			</div>
+			<div class="label">
+				<label for="address">Adress</label>
+			</div>
+			<div class="input">
+				<input type="text" id="address" name="address" placeholder="Street..">
+			</div>
+			<input id="ordered" type="submit" value="Order">
+			<span id="successfulOrder"></span>
+			<span id="errorOrder"></span>
+		</div>			
+		<hr class="hl">
+		<div class="dialogbox">
+			<div class="body">
+				<div class="message">
+					<div id="new">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hl">	
+		<div class="CardSite">
+			<h2> Name </h2>
+			<p>AUTO SHOP</p>
+			<h2> Adress </h2>
+			<p>Sofia city, Studentski grad</p>
+			<h2> Contacts </h2>
+			<p>Teodor Teodorov +359 824 692 32*</p>
+		</div>
+	</body>
+</html>
